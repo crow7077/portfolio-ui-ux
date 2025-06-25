@@ -1,0 +1,130 @@
+.container {
+    width: 1800px;
+    height: 8265px;
+    background-color: #303030;
+    border-radius: 50px;
+    margin-top: 95px;
+    position: relative;
+    z-index: 0;
+}
+
+.fundoDesign {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 55px;
+    position: absolute;
+    z-index: 1;
+}
+
+.group1 {
+    width: 1479px;
+    height: 757.62px;
+    margin: 15px 160px 0;
+    position: absolute;
+    z-index: 1;
+}
+/*
+.arrow {
+    width: 74px;
+    height: 103px;
+}
+*/
+.foldercv {
+    width: 197px;
+    height: 145px;
+    top: 630px;
+    left: 1269px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+
+.arrow {
+    width: 70px;
+    height: auto;
+    top: 750px;
+    left: 1440px;
+    transform: translate(-50%, -50%);
+    transform-origin: bottom center;
+    animation: clickArrow 1.5s ease-in-out infinite;
+    position: absolute;
+    z-index: 4;
+}
+
+@keyframes clickArrow {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1)
+    } 50% {
+        transform: translate(-50%, -40%) scale(0.92)
+    }
+}
+
+.yellowbox {
+    width: 1800px;
+    height: 992px;
+    background-color: #ffb01e4d;
+    margin-top: 2842px;
+    position: absolute;
+    z-index: 1;
+}
+
+.yellowbox2 {
+    width: 1800px;
+    height: 990px;
+    background-color: #ffa600;
+    margin-top: 5920px;
+    position: absolute;
+    z-index: 1;
+}
+
+.typewrite {
+    top: 440px;
+    left: 755px;
+    font-size: 115px;
+    color: #fff;
+    overflow: hidden;font-family: 'Courier New', Courier, monospace;
+    animation: typing 3s steps(12, end) forwards;
+    animation-delay: 2s;
+    white-space: nowrap;
+    width: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 12ch;
+    }
+}
+
+.welcome {
+    font-family: "Alfa Slab One", sans-serif;
+    font-weight: 400;
+    font-size: 238px;
+    top: 1920px;
+    left: 107px;
+    line-height: 210px;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    z-index: 2;
+}
+
+.portfolio-h1 {
+    font-family: "Alfa Slab One", sans-serif;
+    font-weight: 400;
+    font-size: 245px;
+    color: #ffa600;
+}
+
+.letra-t {
+    width: 353px;
+    height: auto;
+    top: 620px;
+    left: 300px;
+    position: absolute;
+    z-index: 1;
+}

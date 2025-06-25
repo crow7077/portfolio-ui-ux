@@ -1,0 +1,50 @@
+.navbar {
+    width: 1800px;
+    height: 74px;
+    border-radius: 1000px;
+    background-color: #ffa600;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px var(--spacing-outer);
+    margin-top: 10px;
+    position: absolute;
+    z-index: 100;
+}
+
+.navbarBrand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brandCircle {
+    width: 61px;
+    height: 61px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    border: solid 2px #000;
+}
+
+.brandName {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbarNav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbarNav li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbarNav li a:hover {
+    color: #000;
+}

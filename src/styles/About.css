@@ -1,0 +1,38 @@
+.about-container {
+    width: 1800px;
+    height: 975px;
+    top: 965px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-img {
+    width: 739px;
+    height: 894px;
+}
+
+.about {
+    width: auto;
+    height: 894px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about h1 {
+    font-family: "Alice", sans-serif;
+    font-weight: 100;
+    font-size: 150px;
+    line-height: 130px;
+    color: #ffa600;
+}
+
+.about h2 {
+    font-family: "baloo 2", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 50px;
+}
