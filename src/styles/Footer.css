@@ -1,8 +1,9 @@
 .footer {
-    width: 1800px;
-    height: 318px;
     margin-top: 50px;
     margin-bottom: 15px;
-    border-radius: 50px;
-    background-color: #303030;
+}
+
+.footer-img {
+    width: 1800px;
+    height: 318px;
 }

@@ -24,6 +24,7 @@
     position: absolute;
     z-index: 1;
 }
+
 /*
 .arrow {
     width: 74px;
@@ -53,17 +54,99 @@
 }
 
 @keyframes clickArrow {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translate(-50%, -50%) scale(1)
-    } 50% {
+    }
+
+    50% {
         transform: translate(-50%, -40%) scale(0.92)
     }
+}
+
+.line-horizon {
+    background-color: #000;
+    top: 3345px;
+    left: 64px;
+    width: 1670px;
+    height: 2px;
+    position: inherit;
+    z-index: 2;
+}
+
+.yellowbox .line-vert1 {
+    background-color: #000000;
+    left: 622px;
+    width: 2px;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox .line-vert2 {
+    background-color: #000000;
+    left: 1200px;
+    width: 2px;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox h1 {
+    Color: #000000;
+    transform: rotate(270deg);
+    top: 225px;
+    left: 480px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox h1 {
+    Color: #000000;
+    transform: rotate(270deg);
+    top: 225px;
+    left: 480px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox .h01 {
+    Color: #000000;
+    transform: rotate(270deg);
+    top: 225px;
+    left: 0;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox .h02 {
+    Color: #000000;
+    transform: rotate(270deg);
+    top: 225px;
+    left: 530px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox .h03 {
+    Color: #000000;
+    transform: rotate(270deg);
+    top: 225px;
+    left: 1110px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
 }
 
 .yellowbox {
     width: 1800px;
     height: 992px;
-    background-color: #ffb01e4d;
+    background-color: #ffa60060;
     margin-top: 2842px;
     position: absolute;
     z-index: 1;
@@ -71,7 +154,7 @@
 
 .yellowbox2 {
     width: 1800px;
-    height: 990px;
+    height: 985px;
     background-color: #ffa600;
     margin-top: 5920px;
     position: absolute;
@@ -83,7 +166,8 @@
     left: 755px;
     font-size: 115px;
     color: #fff;
-    overflow: hidden;font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
     animation: typing 3s steps(12, end) forwards;
     animation-delay: 2s;
     white-space: nowrap;
@@ -95,7 +179,9 @@
 @keyframes typing {
     from {
         width: 0;
-    } to {
+    }
+
+    to {
         width: 12ch;
     }
 }
@@ -127,4 +213,161 @@
     left: 300px;
     position: absolute;
     z-index: 1;
+}
+
+.notebook1 {
+    width: 823px;
+    height: 532px;
+    top: 3890px;
+    left: 50px;
+    position: absolute;
+    z-index: 3;
+}
+
+.notebook2 {
+    width: 823px;
+    height: 532px;
+    top: 3890px;
+    right: 50px;
+    position: absolute;
+    z-index: 3;
+}
+
+.box-white1 {
+    background-color: #fff;
+    width: 700px;
+    height: 460px;
+    top: 4350px;
+    right: 111px;
+    position: absolute;
+    z-index: 2;
+}
+
+.box-white2 {
+    background-color: #fff;
+    width: 700px;
+    height: 460px;
+    top: 4350px;
+    left: 111px;
+    position: absolute;
+    z-index: 2;
+}
+
+.projects1 {
+    width: 2379px;
+    height: 380px;
+    display: flex;
+    top: 4990px;
+    transform: rotate(-5deg);
+    position: absolute;
+    z-index: 2;
+
+}
+
+.projects2 {
+    width: 2379px;
+    height: 380px;
+    left: -190px;
+    display: flex;
+    top: 5410px;
+    transform: rotate(-5deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.project1 {
+    width: 438px;
+    height: 375px;
+    margin-right: 40px;
+}
+
+.yellowbox2 .phone1 {
+    width: 341px;
+    height: 675px;
+    right: 100px;
+    top: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox2 .phone2 {
+    width: 341px;
+    height: 675px;
+    left: 100px;
+    top: 120px;
+    position: absolute;
+    z-index: 2;
+}
+
+.yellowbox2 .phone3 {
+    width: 341px;
+    height: 675px;
+    left: 490px;
+    top: 290px;
+    position: absolute;
+    z-index: 2;
+}
+
+.info-final {
+    width: 1800px;
+    height: 1360px;
+    top: 6905px;
+    position: absolute;
+    z-index: 2;
+}
+
+.paint {
+    width: 164px;
+    height: 164px;
+    margin: 80px 0 0 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.box-yellow {
+    background-color: #ffa600;
+    border: solid 3px #000;
+    border-style: dashed;
+    width: 629px;
+    height: 444px;
+    margin: 146px 0 0 116px;
+}
+
+.info-final h1 {
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 172px;
+    top: 260px;
+    left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.design-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    color: #000000;
+}
+
+.contact{
+    width: 931px;
+    height: 328px;
+    bottom: 50px;
+    left: 434px;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact h1 {
+    color: #ffa600;
+    font-size: 142px;
+    line-height: 164px;
+    text-align: center;
+}
+
+.vetor {
+    width: 931px;
+    height: 195px;
+    top: 100px;
+    position: absolute;
 }
