@@ -19,12 +19,10 @@
     gap: 10px;
 }
 
-.brandCircle {
-    width: 61px;
-    height: 61px;
-    background-color: #dbdbdb;
-    border-radius: 50%;
-    border: solid 2px #000;
+.ns-design {
+    width: 60px;
+    height: 60px;
+    border: none;
 }
 
 .brandName {
