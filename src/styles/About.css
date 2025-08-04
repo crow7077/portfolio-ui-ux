@@ -10,8 +10,8 @@
 }
 
 .about-img {
-    width: 739px;
-    height: 894px;
+    width: 50rem;
+    height: auto;
 }
 
 .about {
@@ -36,3 +36,4 @@
     font-size: 30px;
     line-height: 50px;
 }
+
